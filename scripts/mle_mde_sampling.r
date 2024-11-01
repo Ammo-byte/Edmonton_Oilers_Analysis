@@ -81,7 +81,7 @@ Newton <- function(theta = 0,
 } 
 
 # Load Edmonton Oilers game data and filter by "all" situations
-edm_data <- read.csv("dataq/EDM.csv", 
+edm_data <- read.csv("data/EDM.csv", 
                      header=TRUE, stringsAsFactors=TRUE)
 new_edm <- subset(edm_data, situation == "all")  # Filter dataset for "all" situations
 gF <- new_edm$goalsFor  # Extract 'goalsFor' column for analysis
