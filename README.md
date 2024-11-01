@@ -104,9 +104,16 @@ To evaluate how sample size affects the reliability of the Horvitz-Thompson esti
 
 ### Analysis
 - As sample size increases:
-  - **Bias** decreases, approaching zero.
-  - **Variance** and **MSE** also decrease, improving estimator reliability.
-  - **Coverage** stabilizes near 95%, supporting estimator accuracy.
+  - **Bias**:
+    - MLE bias is approximately `0.001414698`.
+    - MDE bias is approximately `-0.03101631`.
+  - **Variance**:
+    - MLE variance is approximately `0.06081954`.
+    - MDE variance is approximately `0.06901212`.
+  - **MSE**:
+    - MLE MSE is approximately `0.06082154`.
+    - MDE MSE is approximately `0.06997413`.
+  - **Coverage** stabilizes near the 95% confidence level, supporting estimator accuracy.
 
 ---
 
