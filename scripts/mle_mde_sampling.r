@@ -133,3 +133,5 @@ hist(thou_samples_mde, breaks = 15, main = "Sampling Distribution of MDE",
 abline(v = true_theta_mde, col = "blue", lwd = 2)
 # Display true MDE value on plot
 text(x = round_mde, y = 120, labels = paste(round_mde), col = "blue", pos = 4)
+
+par(mfrow = c(1, 1))

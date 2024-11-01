@@ -1,3 +1,5 @@
+
+par(mfrow = c(1, 1))
 #Density of Goals Scored by Edmonton Oilers
 # Load EDM dataset
 edm_data <- read.csv("data/EDM.csv", 
@@ -41,6 +43,8 @@ text(x = mean_away, y = 0, labels = paste(round(mean_away, 4)), col = "red", pos
 # Add legend indicating colors and line types for home and away games
 legend("topright", legend = c("Home Games", "Away Games"),
        col = c("blue", "red"), lwd = 2, lty = 1)
+
+par(mfrow = c(1, 1))
 
 
 # Load the dataset containing games watched and remove duplicate entries

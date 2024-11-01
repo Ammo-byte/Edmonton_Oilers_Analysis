@@ -1,3 +1,5 @@
+
+par(mfrow = c(1, 1))
 # Function to check convergence between two theta values
 # based on absolute or relative tolerance level
 testConvergence <- function(thetaNew, thetaOld, tolerance = 1e-10, relative = FALSE) {
@@ -123,6 +125,7 @@ lines(sort_gF, p_cdfmde, type = "s", col = "purple", lwd = 2, lty = 2) # MDE lin
 # Add legend to distinguish between ECDF, MLE, and MDE lines
 legend("bottomright", legend = c("ECDF", "Poisson CDF with MLE", "Poisson CDF with MDE"), 
        col = c("blue", "red", "purple"), lwd = 2, lty = c(1, 2))
+
 
 # Conclusion:
 # The poisson models are all somewhat similar in shape with some minor differences. 
