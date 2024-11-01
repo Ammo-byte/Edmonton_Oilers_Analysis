@@ -86,7 +86,7 @@ To evaluate if Edmonton Oilers score more goals at home, suggesting a possible h
   ![Density of Goals Scored at Home vs Away](plots/edm_home_away_density.png)
 
 ### Findings
-- The analysis suggests a higher average goal count at home (3.34) than away (2.52). However, a 95% confidence interval around this difference includes zero, indicating this difference may not be statistically significant.
+- The analysis suggests a higher average goal count at home (2.95) than away (2.78). However, a 95% confidence interval around this difference includes zero (-0.17, 1.79), indicating this difference may not be statistically significant.
 
 ---
 
