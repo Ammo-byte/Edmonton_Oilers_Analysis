@@ -86,6 +86,7 @@ plot(results[, 1], results[, 5], type = "l", ylim = c(0, 1),
      xlab = "Sample Size (n)", ylab = "Coverage", main = "Coverage vs. n", col = 'purple')
 abline(h = 0.95, lty = 2)  # Add horizontal line at 0.95 for reference (ideal coverage)
 
+# Conclusion:
 # From the first plot we can see that as sample size gets larger, bias gets closer 
 # to zero. Furthermore as sample size increases, variance and MSE decrease. 
 # The coverage however stays around .95 the entire time. So larger sample sizes 
